@@ -9,7 +9,8 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 #название заголовка
 pygame.display.set_caption("игра ТИР")
 #загружаем иконку
-icon = pygame.image.load()
+icon = pygame.image.load("img/2906.png")
+pygame.display.set_icon(icon)
 
 
 ruining = True
